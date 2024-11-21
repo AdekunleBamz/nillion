@@ -34,11 +34,12 @@ print_telegram_icon() {
 }
 
 display_ascii() {
-    echo -e "    ${RED}    ____  __ __    _   ______  ____  ___________${RESET}"
-    echo -e "    ${GREEN}   / __ \\/ //_/   / | / / __ \\/ __ \\/ ____/ ___/${RESET}"
-    echo -e "    ${BLUE}  / / / / ,<     /  |/ / / / / / / / __/  \\__ \\ ${RESET}"
-    echo -e "    ${YELLOW} / /_/ / /| |   / /|  / /_/ / /_/ / /___ ___/ / ${RESET}"
-    echo -e "    ${MAGENTA}/_____/_/ |_|  /_/ |_/\____/_____/_____//____/  ${RESET}"
+ echo -e "    ${RED}    ___    _           __________      __  ___  ___  __ ${RESET}"
+echo -e "    ${GREEN}   / __\\  /_\\    /\\/\\ / _  / _  /   /\\ \\ \\/___\\/   \\/__\\${RESET}"
+echo -e "    ${BLUE}  /__/\\// //_\\\\  /    \\\\// /\\// /   /  \\/ //  // /\\ /_\\  ${RESET}"
+echo -e "    ${YELLOW} / \\/  \\/  _  \\/ /\\/\\ \\/ //\\/ //\\ / /\\  / \\_// /_///__  ${RESET}"
+echo -e "    ${MAGENTA} \\_____/\\_/ \\_/\\/    \\/____/____/ \\_\\ \\/\\___/___,'\\__/  ${RESET}"
+echo -e "    ${RESET}                                                      ${RESET}"
 }
 
 show_menu() {
@@ -47,7 +48,7 @@ show_menu() {
     display_ascii
     draw_middle_border
     print_telegram_icon
-    echo -e "    ${BLUE}Subscribe to our channel: ${YELLOW}https://t.me/dknodes${RESET}"
+    echo -e "    ${BLUE}Subscribe to our channel: ${YELLOW}https://t.me/BamzzNodes${RESET}"
     draw_middle_border
     echo -e "    ${GREEN}Hello, friend! This is the Nillion Node Manager.${RESET}"
     draw_middle_border
